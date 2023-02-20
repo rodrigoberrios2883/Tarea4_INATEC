@@ -1,0 +1,32 @@
+/* INDICE DEL CSS
+* 
+* 1.- Selector de etiqueta con un ancho de 200px
+* 2.- Asignar al cuerpo del html body un margen a todos los lados de 20px y tipo de fuente Verdana
+* 3.- Crear un selector de input cuyo atributo name sea email y asignarle el color de fondo #eeeeee
+* 4.- Asignar la fuente Tahoma a todos los párrafos y label con un selector múltiple p, label {...}
+*/
+
+/**** 1.- Selector de etiqueta con un ancho de 200px ****/
+#textarea{
+    width:200px;
+}
+/**** 1.- Selector de etiqueta con un ancho de 200px ****/
+
+/**** 2.- Asignar al cuerpo del html body un margen a todos los lados de 20px y tipo de fuente Verdana ****/
+body {
+    margin: 20px;
+    font-family: Verdana, sans-serif;
+}
+/**** 2.- Asignar al cuerpo del html body un margen a todos los lados de 20px y tipo de fuente Verdana ****/
+
+/**** 3.- Crea un selector de input cuyo atributo name sea email y asignarle el color de fondo #eeeeee ****/
+#email{
+    background-color:#eeeeee;
+}
+/**** 3.- Crea un selector de input cuyo atributo name sea email y asignarle el color de fondo #eeeeee ****/
+
+/**** 4.- Asignar la fuente Tahoma a todos los párrafos y label con un selector múltiple p, label {...} ****/
+p, label{
+    font-family: Tahoma, sans-serif;
+}
+/**** 4.- Asignar la fuente Tahoma a todos los párrafos y label con un selector múltiple p, label {...} ****/
